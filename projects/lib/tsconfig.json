@@ -10,13 +10,16 @@
     "lib": [
       "dom",
       "es2018"
-    ]
+    ],
+    "module": "ESNext"
   },
   "angularCompilerOptions": {
+    "compilationMode": "partial",
     "skipTemplateCodegen": true,
     "strictMetadataEmit": true,
-    "enableIvy": false,
-    "enableResourceInlining": true
+    "enableResourceInlining": true,
+    "enableIvy": true,
+    "allowEmptyCodegenFiles": true
   },
   "exclude": [
     "src/test.ts",

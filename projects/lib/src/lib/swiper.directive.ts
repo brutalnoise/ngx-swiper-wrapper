@@ -1,4 +1,4 @@
-import Swiper from 'swiper/bundle';
+import Swiper from 'swiper';
 import { SwiperOptions } from 'swiper';
 
 import { PLATFORM_ID } from '@angular/core';
