@@ -49,10 +49,6 @@ export const SwiperEventNames: SwiperEvent[] = [
   'autoplayStop',
   'autoplayStart',
 
-  'imagesReady',
-  'lazyImageLoad',
-  'lazyImageReady',
-
   'scrollbarDragEnd',
   'scrollbarDragMove',
   'scrollbarDragStart',
